@@ -6,4 +6,4 @@
 
 * elem > elem 
 * elem + elem
-* elem ~ elem 
+* elem ~ elem 1

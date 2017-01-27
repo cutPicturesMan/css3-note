@@ -23,9 +23,9 @@
 ###结构伪类选择器
 除了:first-child是IE7+，其余的都是IE9+
 
-* E:first-child  		  匹配父元素下的第一个子元素   && 该子元素必须是E
-* E:last-child   		  匹配父元素下的最后一个子元素 && 该子元素必须是E
-* E:nth-child(expression) 匹配父元素下的第n个子元素    && 该子元素必须是E 			
+* E:first-child　　　　　　匹配父元素下的第一个子元素   && 该子元素必须是E
+* E:last-child　　　　　　　匹配父元素下的最后一个子元素 && 该子元素必须是E
+* E:nth-child(expression)　　匹配父元素下的第n个子元素    && 该子元素必须是E 			
 				 **expression** **behavior**
 				 0			一个都不选
 				 2n/even    选中偶数行

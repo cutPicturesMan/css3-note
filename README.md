@@ -3,7 +3,7 @@
 ## 1、选择器
 
 ###层次选择器（IE7+）
-
+| elem1 > elem2 | 匹配elem1的第一级子元素elem2 |
 * elem1 > elem2 匹配elem1的第一级子元素elem2
 * elem1 + elem2 匹配紧邻elem1之后的第一个elem2元素
 * elem1 ~ elem2 匹配紧邻elem1之后的所有elem2元素

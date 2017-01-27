@@ -7,6 +7,26 @@
 .box3 ~ div{
 	background-color: green;
 }
-.box2{
-	
+
+#contact1:target{
+	background-color: red;
+}
+a:visited,
+span:visited,
+button:active,
+input:active{
+	background-color: yellow;
+	display: inline-block;
+	color:#FFF;
+}
+
+input[type="radio"]:disabled{
+	background-color: red;
+	color:red;
+}
+ul>li:nth-child(-n+3){
+	background-color: pink;
+}
+.box1>div:last-child{
+	background-color: yellow;
 }

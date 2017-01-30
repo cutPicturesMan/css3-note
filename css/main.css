@@ -79,3 +79,13 @@ table{
 table th,table td{
 	border-bottom:1px solid #000;
 }
+.shadow{
+	margin:100px;
+	color:#FFF;
+	border:1px solid #000;
+	// box-shadow:-10px 0 10px 0px red;
+	box-shadow:inset 2px 0 0 0px red;
+}
+img{
+	width:100%;
+}

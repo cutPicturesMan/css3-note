@@ -20,10 +20,13 @@ IE11+
 
 ###2、css3圆角边框属性
 IE8+
+
 | 属性 | 值 | 功能 |
 | -------- | ----------------- | ----- | 
-| border-radius | <length> {1,4} [/<length> {1,4}]? | 参数值为圆角的半径，4个方向：top-left,top-right,bottom-right,bottom-left。如果"/"一直存在，"/"前面的值是设置圆角的水平方向半径，"/"后面的值是设置圆角垂直方向的半径。当圆角半径>=border厚度的时候，元素边框内部具有圆角效果。table中border-collapse:collapse时，border-radius无效，border-collapse:separate时border-radius才有效 |
+| border-radius | \<length\> {1,4} [/\<length\> {1,4}]? |参数值为圆角的半径，4个方向：top-left,top-right,bottom-right,bottom-left。如果"/"一直存在，"/"前面的值是设置圆角的水平方向半径，"/"后面的值是设置圆角垂直方向的半径。当圆角半径>=border厚度的时候，元素边框内部具有圆角效果。table中border-collapse:collapse时，border-radius无效，border-collapse:separate时border-radius才有效 |
 
 ###3、css3盒子阴影属性
 IE9+，用于定义元素的盒子阴影
+
+>box-shadow:inset x-offset y-offset blur-radius spread-radius color;
 
